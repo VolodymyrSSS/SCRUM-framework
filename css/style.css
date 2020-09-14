@@ -1,0 +1,338 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fa8072;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 45px auto 50px;
+}
+
+.container {
+  width: 1089px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.sprites {
+  background: url('/img/sprites.png') no-repeat;
+}
+
+.productBacklog {
+  margin-bottom: 170px;
+  position: relative;
+}
+
+.imgProductOwner {
+  width: 191px;
+  height: 188px;
+  display: inline-block;
+  background-position: -10px -223px;
+}
+
+.imgProductBacklog {
+  width: 211px;
+  /* productBacklogImg width */
+  height: 193px;
+  /* productBacklogImg height*/
+  background-position: -10px -10px;
+  /* productBacklogImg position in sprite */
+  display: inline-block;
+  /* Display productBacklogImg as inline block */
+}
+
+.imgBacklogItems {
+  width: 163px;
+  height: 162px;
+  display: inline-block;
+  background-position: -168px -431px;
+}
+
+.imgRoundArrowDownRight {
+  width: 161px;
+  height: 90px;
+  display: inline-block;
+  background-position: -968px -10px;
+}
+
+.scrumDividerOne {
+  position: absolute;
+  width: 162px;
+  transform: rotate(90deg);
+  top: 230px;
+  left: 462px;
+}
+
+.imgArrowRight {
+  width: 162px;
+  height: 81px;
+  display: inline-block;
+  background-position: -192px -860px;
+}
+
+.imgSprintTitle {
+  width: 152px;
+  height: 50px;
+  display: inline-block;
+  background-position: -968px -120px;
+}
+
+.imgSprintBacklog {
+  width: 208px;
+  height: 193px;
+  background-position: -241px -10px;
+  display: inline-block;
+}
+
+/* SECTION sprintProcessStart */
+
+.sprintProcessStart {
+  margin-bottom: 370px;
+  position: relative;
+}
+
+.imgSprintPlanning {
+  width: 113px;
+  height: 193px;
+  background-position: -813px -202px;
+  display: inline-block;
+}
+
+.imgSprintBurndown {
+  width: 136px;
+  height: 204px;
+  display: inline-block;
+  background-position: -625px -207px;
+}
+
+.scrumMaster {
+  position: absolute;
+  width: 136px;
+  top: 330px;
+  left: 472px;
+}
+
+.imgScrumMaster {
+  width: 168px;
+  height: 177px;
+  display: inline-block;
+  background-position: -625px -10px;
+}
+
+
+.imgSprintTasks {
+  width: 135px;
+  height: 172px;
+  display: inline-block;
+  background-position: -813px -10px;
+}
+
+.scrumDividerTwo {
+  position: absolute;
+  width: 162px;
+  transform: rotate(90deg);
+  top: 245px;
+  right: 73px;
+}
+
+.scrumDividerThree {
+  position: absolute;
+  width: 162px;
+  transform: rotate(90deg);
+  bottom: -305px;
+  right: 73px;
+}
+
+/* SECTION sprintProcessCircle */
+
+.sprintProcessCircle {
+  margin-bottom: 170px;
+  position: relative;
+}
+
+.scrumDividerFour {
+  position: absolute;
+  width: 162px;
+  transform: rotate(90deg);
+  bottom: -170px;
+  left: -60px;
+}
+
+.scrumDividerFive {
+  position: absolute;
+  width: 162px;
+  transform: rotate(-45deg);
+  bottom: 469px;
+  left: 196px;
+}
+
+.scrumDividerSix {
+  position: absolute;
+  width: 162px;
+  transform: rotate(-65deg);
+  bottom: 212px;
+}
+
+.scrumDividerSeven {
+  position: absolute;
+  width: 262px;
+  transform: rotate(50deg);
+  bottom: -150px;
+  left: 50px;
+}
+
+.scrumDividerEight {
+  position: absolute;
+  width: 262px;
+  bottom: -150px;
+  left: 280px;
+}
+
+.scrumDividerNine {
+  position: absolute;
+  width: 262px;
+  transform: rotate(-50deg);
+  bottom: -80px;
+  right: 150px;
+}
+
+.imgArrowRightRetrspNextUp {
+  width: 162px;
+  height: 81px;
+  display: inline-block;
+  background-position: -192px -860px;
+}
+
+.imgArrowRightRetrspNext {
+  width: 162px;
+  height: 81px;
+  display: inline-block;
+  background-position: -192px -860px;
+}
+
+.imgArrowRightRetrsp {
+  width: 162px;
+  height: 81px;
+  display: inline-block;
+  background-position: -192px -860px;
+}
+
+.imgRoundArrowDownRightRef {
+  width: 161px;
+  height: 90px;
+  display: inline-block;
+  background-position: -968px -10px;
+}
+
+.sprintRetrospective {
+  position: absolute;
+  width: 171px;
+  top: 255px;
+  left: 485px;
+}
+
+.imgSprintRetrospective {
+  width: 171px;
+  height: 153px;
+  display: inline-block;
+  background-position: -351px -431px;
+}
+
+.backlogRefinement {
+  position: absolute;
+  width: 136px;
+  top: -245px;
+  left: 128px;
+}
+
+.imgBacklogRefinement {
+  width: 136px;
+  height: 218px;
+  display: inline-block;
+  background-position: -469px -10px;
+}
+
+.imgRoundArrowDownLeft {
+  width: 161px;
+  height: 90px;
+  display: inline-block;
+  background-position: -673px -658px;
+}
+
+.dailyScrum {
+  width: 165px;
+  height: 182px;
+  display: inline-block;
+  position: relative;
+}
+
+.imgRoundArrowDownLeftCircle {
+  width: 161px;
+  height: 90px;
+  background-position: -673px -658px;
+  position: absolute;
+  top: 33px;
+  left: 0;
+}
+
+.imgRoundArrowUpRightCircle {
+  width: 162px;
+  height: 90px;
+  background-position: -309px -658px;
+  position: absolute;
+  top: 120px;
+  left: 0;
+}
+
+.imgArrowLeft {
+  width: 162px;
+  height: 81px;
+  display: inline-block;
+  background-position: -10px -860px;
+}
+
+.imgDailySprint {
+  width: 148px;
+  height: 108px;
+  display: inline-block;
+  background-position: -141px -658px;
+}
+
+.imgScrumTeam {
+  width: 227px;
+  height: 151px;
+  background-position: -221px -223px;
+  display: inline-block;
+}
+
+.imgSprintReview {
+  width: 111px;
+  height: 182px;
+  background-position: -10px -658px;
+  display: inline-block;
+}
+
+/* SECTION sprintIncrement */
+
+.imgRoundArrowUpRight {
+  width: 162px;
+  height: 90px;
+  display: inline-block;
+  background-position: -309px -658px;
+}
+
+.imgProductIncrement {
+  width: 125px;
+  height: 167px;
+  display: inline-block;
+  background-position: -813px -415px;
+}
